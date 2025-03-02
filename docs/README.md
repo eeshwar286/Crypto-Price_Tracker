@@ -14,7 +14,7 @@ To run the Next.js application:
 cd web-app
 npm install
 npm run dev
-
+```
 Visit http://localhost:3000 to view the application in the browser.
 
 API Integration
@@ -30,12 +30,11 @@ Benefits of React Query:
 Data Caching: It stores fetched data in the cache, reducing the need for repeated API calls.
 Automatic Refetching: It can automatically refetch data after a specified interval or when a user interacts with the app.
 Error Handling: React Query simplifies handling API errors and retries.
+
 Challenges & Solutions
 Challenge: Handling CORS errors while fetching data in the browser.
-
 Solution: Ensure the API server supports CORS or use a proxy to handle the requests.
 Challenge: Refreshing the data on the frontend without overloading the server.
-
 Solution: Use React Query’s refetch function to control when data is updated, and avoid over-fetching.
 
 Conclusion
